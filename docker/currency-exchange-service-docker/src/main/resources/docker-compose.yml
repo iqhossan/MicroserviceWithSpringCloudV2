@@ -39,6 +39,7 @@ services:
       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
       MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411
 
+
   naming-server:
     image: naming-server:latest
     container_name: naming-server
